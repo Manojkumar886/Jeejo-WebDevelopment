@@ -1,0 +1,64 @@
+<!-- 
+self/empty body closing: 
+br  <br/>
+hr  <hr/>
+input   <input/>
+img     <img/>
+source  <source/>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>Customer's First Name</label></td>
+                    <td><input type="text" name="firstName" id="fName" placeholder="First Name here"/></td>
+                    <td><input type="text" name="lastName" id="lName" placeholder="Last Name here" /></td>
+                </tr>
+                <tr>
+                    <td><label>Customer's Password</label></td>
+                    <td><input type="password" name="passWord" id="pWord" placeholder="Password here"/></td>
+                </tr>
+                <tr>
+                    <td><label>Customer's Contact Number</label></td>
+                    <td><input type="tel" name="mobileNumber" id="mNumber" placeholder="Contact Number here"/></td>
+                </tr>
+                <tr>
+                    <td><label>Customer's Contact Email</label></td>
+                    <td><input type="email" name="mail" id="mail" placeholder="Email id here"/></td>
+                </tr>
+                <tr>
+                    <td><label>Customer's ID Proof</label></td>
+                    <td><input type="file" name="addressProof" /></td>
+                </tr>
+                <tr>
+                    <td><label>Cusomter's Date of Account openning</label></td>
+                    <td><input type="date" name="dateOfOpen" id="dop" placeholder="Date of Open" /></td>
+                </tr>
+                <tr>
+                    <td><label>Customer's Type of Account</label></td>
+                    <td>
+                        <input type="radio" name="account" value="savings"/>Savings
+                        <input type="radio" name="account" value="current"/>Current
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Customer's can avail following features offered by bank</label></td>
+                    <td>
+                        <input type="checkbox" name="mobileBank" value="app"/>Mobile App
+                        <input type="checkbox" name="internetBank" value="internet"/>Internet Banking
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
