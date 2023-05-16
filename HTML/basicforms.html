@@ -15,7 +15,7 @@ source  <source/>
     <title>Forms</title>
 </head>
 <body>
-    <form>
+    <form name="kyc" method="post" action="#">
         <table>
             <tbody>
                 <tr>
@@ -56,6 +56,25 @@ source  <source/>
                         <input type="checkbox" name="mobileBank" value="app"/>Mobile App
                         <input type="checkbox" name="internetBank" value="internet"/>Internet Banking
                     </td>
+                </tr>
+                <tr>
+                    <td><label>Customer's can select following any vendors for Debit card</label></td>
+                    <td>
+                        <select name="cards" id="debits">
+                            <option>Select any card</option>
+                            <option>Rupay</option><option>Mastercard</option>
+                            <option>VISA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Customer's Residential Address</label></td>
+                    <td>
+                        <textarea name="residential" id="residen"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Create an account"/></td>
                 </tr>
             </tbody>
         </table>
