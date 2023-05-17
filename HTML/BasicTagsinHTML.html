@@ -2,14 +2,38 @@
 <html >
 <head>
     <title>Normal Tags</title>
+    <style>
+        div{
+            text-align: center;
+        }
+        #intro{
+            box-shadow: 10px 10px 5px maroon;
+            width:450px;
+            height: 50px;
+        }
+        .media{
+            border: 10px 10px 10px 10px;
+            border-style: dotted;
+            border-color: brown;
+            border-radius: 50px;
+        }
+        .places{
+            font-family: cursive;
+            text-align: start;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: burlywood;font-size: 15px;">
     <!-- h1 to h6 (size format) -->
-<div align="center">
-    <h1 >   
-        <font color="red" face="Monotype Corsiva"> <marquee direction="right" behavior="alternate">Salem-First priority of tamilnadu</marquee></font>
+<!-- <div align="center"> -->
+<div>
+    <marquee direction="right" behavior="alternate">
+    <h1 id="intro">
+        <!-- <font color="red" face="Monotype Corsiva"> <marquee direction="right" behavior="alternate">Salem-First priority of tamilnadu</marquee></font> -->
+        Salem-First priority of tamilnadu
      </h1>
-     <p >
+    </marquee>
+     <p>
         <b> <sup>Salem</sup> is a city on the Thirumanimuthar River</b>, in the south Indian state of Tamil Nadu. The centuries-old Sugavaneswarar Temple, dedicated to the Hindu deity Shiva, features colorful <strong>gopurams (towers) and gardens.</strong> Nearby, colonial-era Christ Church is an Indo-Saracenic landmark consecrated in 1875. Jamiya Masjid is a mosque believed to have been built by Tipu Sultan, <i>the 18th-century ruler of the Kingdom of <sub>Mysore</sub>.</i>
      </p>
      <hr>
@@ -28,7 +52,7 @@
         <li>Muthumalai Murugan Temple</li>
         <li>Servarayan Falls</li>
      </ol>
-     <ul type="disk">
+     <ul type="disk" class="places">
         Salem New to old busstand 
         <li>new bus stand</li>
         <li>Collector office</li>
@@ -36,7 +60,9 @@
         <li>Four road</li>  
      </ul>
     <!-- Anchor Tag -->
-    <div align="center">
+    <!-- <div align="center"> -->
+    <h1>Anchor Tags demo</h1>
+    <div>
         <a href="https://www.w3schools.com/tags/" target="_blank">HTML-W3School</a>
         <br>
         <a href="tel:+9789355930"> Contact</a>
@@ -47,12 +73,13 @@
         <a href="../MyFiles/6th Std Tamil _Term 1_FTB.pdf">6th all subject-pdf</a>
     </div>
     <!-- Audio and Video Tags(Controls,Muted,Autoplay) -->
-    <audio controls autoplay muted>
-        <source src="../MyFiles/Veeram Ajith - Dialogues.mp3">
-    </audio>
-    <br>
-    <video src="../MyFiles/video.mp4" controls autoplay>
-    </video>
+    <div class="media">
+        <audio controls autoplay muted>
+            <source src="../MyFiles/Veeram Ajith - Dialogues.mp3">
+        </audio>
+        <video src="../MyFiles/video.mp4" controls autoplay>
+        </video>
+    </div>
 
 </body>
 </html>

@@ -1,0 +1,28 @@
+div{
+    display: flex;
+    /* height: 100vh; */
+    justify-content: center;
+}
+
+tbody{
+    text-align: center;
+}
+
+#col1{
+    flex:5;
+    align-self: center;
+}
+
+#col2{
+    flex:5;
+}
+
+td:hover{
+    font-size: 20px;
+    background-color: aqua;
+    color: wheat;
+}
+
+table{
+    background: linear-gradient(90deg,red,blue);
+}
