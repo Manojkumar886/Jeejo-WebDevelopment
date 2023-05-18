@@ -1,0 +1,13 @@
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.col1{
+    flex: 8;
+    align-self: center;
+}
+.col2{
+    flex: 4;
+}

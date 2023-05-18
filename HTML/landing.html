@@ -6,62 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to SavinCard Bank</title>
     <link rel="icon" href="/MyFiles/SavinCardIco.png"/>
+    <link rel="stylesheet" href="/MyFiles/landStyle.css"/>
 </head>
-<body bgcolor="blue">
-    <font face="Monotype Corsiva" color="white">
-    <div align="center">
-        <div align="right">
-            <div align="left">
-                <img width="100px" height="60px" src="/MyFiles/SavinCard.png" alt="savincard bank"/>
-            </div>
+<body>
+    <div class="container">
+        <div class="banner">
+            <img width="100px" height="60px" src="/MyFiles/SavinCard.png" alt="savincard bank"/>
             <p>+9186670 02959</p>
         </div>
         <hr color="red"/>
         <h1>SavinCard place to save your wealth</h1>
         <hr color="red"/>
-        <table cellpadding="10px" cellspacing="10px">
-            <tbody>
-                <tr>
-                    <td>
-                        <video width="800px" height="500px" controls muted autoplay>
-                            <source src="/MyFiles/union.mp4"/>
-                        </video>
-                    </td>
-                    <td>
-                        <h1>Customer Login</h1>
-                        <form>
-                            <table bgcolor="red" cellpadding="10px" cellspacing="10px">
-                                <tbody>
-                                    <tr>
-                                        <td><label>Customer ID</label></td>
-                                        <td><input type="text" name="customerId" placeholder="Customer ID here"/></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label>Password</label></td>
-                                        <td><input type="password" name="passcode" placeholder="Password here"/></td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <input type="submit" value="Login" />
-                                        </td>
-                                        <td>
-                                            <input type="reset" value="Cancel"/>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </form>
-                        <marquee direction="down">
-                            <p>Best Digital Banking</p>
-                            <p>Best Customer Support</p>
-                            <p>Best Ease of getting loan</p>
-                            <p>Paperless process</p>
-                        </marquee>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="mainsection">
+            <div class="slide">
+                <video width="800px" height="500px" controls muted autoplay>
+                    <source src="/MyFiles/union.mp4"/>
+                </video>
+            </div>
+            <div class="login">
+                <h1>Customer Login</h1>
+                <form>
+                    <div class="grp1">
+                        <label>Customer ID</label>
+                        <input type="text" name="customerId" placeholder="Customer ID here"/>
+                    </div>
+                    <div class="grp1">
+                        <label>Password</label>
+                        <input type="password" name="passcode" placeholder="Password here"/>
+                    </div>
+                    <div class="btngrp">
+                        <button type="submit">Login</button>
+                        <button type="reset">Cancel</button>
+                        <!-- <input type="submit" value="Login" />
+                        <input type="reset" value="Cancel"/> -->
+                    </div>
+                </form>
+                <div class="news">
+                    <marquee direction="down">
+                        <p>Best Digital Banking</p>
+                        <p>Best Customer Support</p>
+                        <p>Best Ease of getting loan</p>
+                        <p>Paperless process</p>
+                    </marquee>
+                </div>
+            </div>
+        </div>
     </div>
-    </font>
 </body>
 </html>
