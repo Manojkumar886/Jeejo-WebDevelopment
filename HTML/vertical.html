@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical alignment</title>
+    <link rel="stylesheet" href="/MyFiles/valign.css"/>
+</head>
+<body>
+    <div class="row">
+        <div class="col1">
+            <a href="../HTML/tables.html">Local site</a>
+            <a href="../MyFiles/video.mp4">Rain forest</a>
+            <a href="../HTML/tables.html">Local site</a>
+            <a href="../MyFiles/video.mp4">Rain forest</a>
+        </div>
+        <div class="col2">
+            <table cellspacing="5px" border="4px" cellpadding="14px">
+                <thead>
+                    <tr>
+                        <th>Date</th><th>Type of transaction</th>
+                        <th>Amount</th><th>Description</th>
+                        <th>Beneficiary</th><th>Status</th>
+                    </tr>
+                </thead>
+                <!-- <tbody align="center"> -->
+                <tbody>
+                    <tr>
+                        <td>13-01-2023</td><td>Debit</td>
+                        <td>120</td><td>For recharge</td>
+                        <td>JIO</td><td>Success</td>
+                    </tr>
+                    <tr>
+                        <td>13-01-2023</td><td>Credit</td>
+                        <td>9855</td><td>Deposite</td>
+                        <td>Self</td><td>Success</td>
+                    </tr>
+                    <tr>
+                        <td>20-01-2023</td><td>NEFT</td>
+                        <td>12000</td><td>For Bill</td>
+                        <td>Jeejo</td><td>Success</td>
+                    </tr>
+                    <tr>
+                        <td>25-02-2023</td><td>IMPS</td>
+                        <td>250</td><td>Food</td>
+                        <td>A2B</td><td>Failure</td>
+                    </tr>
+                </tbody>
+                <!-- <tfoot>
+                    <tr>
+                        <td>Jan-March Statement</td>
+                    </tr>
+                </tfoot> -->
+            </table>
+        </div>
+    </div>
+</body>
+</html>
